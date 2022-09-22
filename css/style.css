@@ -47,24 +47,17 @@ main img:hover{
     box-shadow: 0 0 2px 1px rgba(0,140,186,0.5);
 }
 
-.home{
+.current_page{
     background-color: black;
     color: white;
 
 }
-.weapons:hover{
+.other_page:hover{
     background-color: black;
     color: white;
     
 }
-.legends:hover{
-    background-color: black;
-    color:white;
-}
-.maps:hover{
-    background-color: black;
-    color: white;
-}
+
 
 .skip-to-content-link {
     left:50%;
