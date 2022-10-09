@@ -80,7 +80,7 @@ nav li:visited{
     left:50%;
     position:absolute;
     padding: 8px;
-    height: 30px;
+    height: 45px;
     background-color: #00274C;
     color: white;
     transform: translateY(-100%);
