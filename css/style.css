@@ -82,7 +82,7 @@ nav li:visited{
     padding: 8px;
     height: 30px;
     background-color: #00274C;
-    color: #000000;
+    color: white;
     transform: translateY(-100%);
     transition: transform 0.3s;
 }
