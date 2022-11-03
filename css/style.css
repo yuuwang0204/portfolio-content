@@ -1,8 +1,9 @@
 body {
-    background-color: #AEECEF;
+    background-color: black;
     font-family: sans-serif;
     padding: 30px;
     margin-top: 80px;
+    color: white;
 
 }
 
@@ -33,6 +34,11 @@ header li a {
 
 }
 
+main{
+    color:white;
+    background-color: rgba(0,0,0,0.5)
+}
+
 main img {
     border: 3px solid #000000;
     padding: 20px;
@@ -41,20 +47,31 @@ main img {
 
 }
 
+
+
 main img:hover{
     border-radius: 4px;
     border: 2px solid #FFFFFF;
     box-shadow: 0 0 2px 1px rgba(0,140,186,0.5);
 }
 
-.current_page{
-    background-color: black;
-    color: white;
+nav li:active{
+    background-color: white;
+    color: black;
 
 }
-.other_page:hover{
-    background-color: black;
+nav li:hover{
+    background-color: #000000;
     color: white;
+    
+}
+nav li:visited{
+    background-color:rgb(0, 0, 0)
+}
+
+.active_page{
+    background-color: grey;
+    color: black;
     
 }
 
@@ -63,18 +80,15 @@ main img:hover{
     left:50%;
     position:absolute;
     padding: 8px;
-    height: 30px;
-    background-color: #80DED9;
-    color: #000000;
+    height: 45px;
+    background-color: #00274C;
+    color: white;
     transform: translateY(-100%);
     transition: transform 0.3s;
 }
 
 .skip-to-content-link:focus {
     transform: translateY(0%);
-}
-main {
-    color: rgb(0, 0, 0);
 }
 
 footer {
