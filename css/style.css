@@ -1,5 +1,5 @@
 body {
-    background-image: url('../images/bgm.jpg');
+    background-color: black;
     font-family: 'Space Mono', monospace;
     padding: 30px;
     margin-top: 80px;
@@ -8,9 +8,6 @@ body {
 
 }
 
-h1{
-    color: yellow;
-}
 
 .container{
     display: grid;
@@ -20,7 +17,7 @@ h1{
 }
 
 header {
-    background-color: white;
+    background-image: url('../images/cloud.jpg');
     position: fixed;
     top: 0;
     left: 0;
