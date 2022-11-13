@@ -110,7 +110,7 @@ nav li:visited{
 }
 
 #main{
-    grid-row: 2 / span1;
+    grid-row: 3 / span1;
     grid-column: 2 / span 1;
 }
 .navigation{
@@ -125,8 +125,9 @@ nav li:visited{
 }
 
 .pro{
-    grid-row: 8 / span 1;
+    grid-row: 2 / span 1;
     grid-column: 2 / span 1;
+    color: yellow;
 }
 footer {
     background-color:#00274C;
